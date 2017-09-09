@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Accounts from 'components/ritekit/accounts'
+import Accounts from 'components/ritekit/services'
 import createExampleHeader from 'fn/createExampleHeader'
 
 const Container = styled.div`
