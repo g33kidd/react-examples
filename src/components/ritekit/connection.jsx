@@ -16,15 +16,15 @@ const Username = styled.div`
   padding: 8px 8px;
 `
 const Actions = styled.div`
-
 `
 
 class Connection extends Component {
   render () {
+    let { avatar, username } = this.props.connection
     return (
       <Wrapper>
-        <Avatar src="https://unsplash.it/200" alt="avatar" />
-        <Username>{this.props.connection.username}</Username>
+        <Avatar src={avatar} alt="avatar" />
+        <Username>{username}</Username>
       </Wrapper>
     )
   }

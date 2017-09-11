@@ -57,6 +57,7 @@ class ConnectionType extends Component {
   _addConnection = () => {
     this.props.onAddConnection({
       username: faker.internet.userName(),
+      avatar: faker.internet.avatar(),
       type: this.props.type.slug
     })
   }

@@ -7,8 +7,7 @@ export default () => {
         {name: 'Profiles', slug: 'profiles'}
       ],
       connections: [
-        { username: 'g33kidd', type: 'profiles' },
-        { username: 'fundSocialApp', type: 'profiles' }
+        { username: 'g33kidd', type: 'profiles', avatar: 'https://unsplash.it/200' },
       ]
     },
     {
@@ -19,12 +18,7 @@ export default () => {
         {name: 'Pages', slug: 'pages'},
         {name: 'Groups', slug: 'groups'}
       ],
-      connections: [
-        { username: 'Joshua Kidd', type: 'profiles' },
-        { username: 'Something Cool', type: 'pages' },
-        { username: "ClickBait Titles", type: 'pages' },
-        { username: "The Trading Group", type: 'groups' }
-      ]
+      connections: []
     },
     {
       name: 'Pinterest',
@@ -34,7 +28,7 @@ export default () => {
         {name: 'Profiles', slug: 'profiles', beta: true}
       ],
       connections: [
-        { username: 'watspinterest', type: 'profiles' }
+        { username: 'Hello', type: 'profiles', avatar: 'https://unsplash.it/200' }
       ]
     },
     {
@@ -46,8 +40,8 @@ export default () => {
         {name: 'Pages', slug: 'pages', beta: true}
       ],
       connections: [
-        {username: 'Joshua Kidd', type: 'profiles'},
-        {username: 'Richard Branson', type: 'pages'},
+        {username: 'Joshua Kidd', type: 'profiles', avatar: 'https://unsplash.it/200'},
+        {username: 'Richard Branson', type: 'pages', avatar: 'https://unsplash.it/200'},
       ]
     },
     {
@@ -59,7 +53,7 @@ export default () => {
         {name: 'Profiles', slug: 'profiles', comingSoon: true}
       ],
       connections: [
-        {username: 'React Programming', type: 'pages'}
+        {username: 'React Programming', type: 'pages', avatar: 'https://unsplash.it/200'}
       ]
     }
   ]

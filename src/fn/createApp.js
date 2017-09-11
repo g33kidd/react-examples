@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import styled from 'styled-components'
 
 import MainIndex from 'components/main'
@@ -14,12 +14,12 @@ import ChatIndex from 'components/chat'
 
 export default () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Route path="/" component={MainIndex} exact />
         <Route path="/ritekit" component={RiteIndex} />
         <Route path="/chat" component={ChatIndex} />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
